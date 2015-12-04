@@ -13,18 +13,24 @@ Created on Thu Dec 03 23:11:29 2015
 	2.如何让python的print不换行
 		在结尾加上‘,’即可。记住要加在pirnt表达式的结尾哦
 """
+
+
 def example():
-    for a in range(1,9):
-        for b in range(1,9):
-            print"%d * %d = %d " % (a,b,a*b),
+    for a in range(1, 9):
+        for b in range(1, 9):
+            print '%d * %d = %d ' % (a, b, a * b),
+
+
 def example1(arg):
     if arg == 1:
         print '1 * 1 = 1'
-        return 1 
-    for i in range(1,arg):
-        print "%d * %d = %d " % (i,arg,i*arg),
+        return 1
+    for i in range(1, arg):
+        print "%d * %d = %d " % (i, arg, i * arg),
     print '\r\n',
-    arg=arg-1
+    arg -= 1
     return example1(arg)
-if __name__ =='__main__':
+
+if __name__ == '__main__':
+    example()
     example1(9)
