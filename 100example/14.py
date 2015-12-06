@@ -35,7 +35,8 @@ def run():
         print data_str + '*' + str(data)
     else:
         print str(data)
-
+    print u'完成了输出测试'
+    fsock.close()
 
 if __name__ == "__main__":
     run()
