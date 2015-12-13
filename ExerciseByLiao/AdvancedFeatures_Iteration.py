@@ -6,7 +6,7 @@ Created on 2015.12.13 17:39
 """
 """
     Advanced feature    <==>高级特性
-    Interation          <==>迭代
+    Iteration          <==>迭代
     详细内容参见，廖雪峰教程中的迭代。
 """
 
